@@ -1,0 +1,503 @@
+header {
+  background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+  }
+  .head nav ul{
+    display: flex;
+    width: 96%;
+  }
+  .menubar2 ul{
+    width: 96%;
+    display: flex;
+    color: black;
+    gap: 10px;
+    list-style: none;
+   }
+   .menubar2 ul li a{
+    color: white;
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+   }
+   .menubar2 a:hover{
+    color:yellow;
+   }
+BODY{
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+
+}
+  .logo{
+    margin-left: 20px;
+    border-radius: 20px;
+    /* margin-top: 40px; */
+    width: auto;
+    height: 50px;
+  }
+  .head{
+    display: flex;
+    font-family: 'Unbounded', cursive;
+  }
+  /* .bun{
+    display: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .line{
+    height: 4px;
+    width: 30px;
+   margin: 3px 3px 3px;
+   background-color: white;
+  } */
+
+  header nav ul {
+   margin-right: 20px;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  A:hover{
+    color: yellow;
+  }
+  .button1{
+    color: whitesmoke;
+    background-color: yellowgreen;
+    font-family: sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .button1:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #hero {
+    /* background-image: url("unit-2301-penthouse.jpg"); */
+  background-image: url("R\ \(6\).jpg");
+    background-size: cover;
+      position:static;
+      display: block;
+       width: 100%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-image: url(ali4.jpg);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  .heading{
+    text-align: center;
+  }
+  .div1{
+    width: 100px;
+    height: 5px;
+   background-color: #333;
+   margin: auto;
+  }
+  #HERO2{
+     display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+  .div2{
+    width: 400px;
+    height: 250px;
+    background-image: url(ali4.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .div3{
+    width: 400px;
+    height: 250px;
+    background-image: url(ali4.jpg);
+    background-size: cover;
+    color: white;
+    transition: 0.5s;
+  }
+  .DIV4{
+    width: 400px;
+    height: 250px;
+    background-image: url(ali4.jpg);
+    background-size: cover;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  #animation{
+    width: auto;
+    height: 20vh;
+    /* background-image: url(ali4.jpg); */
+    background-size: cover;
+    background-color:cornflowerblue;
+    background-repeat: repeat;
+    font-family: sans-serif;
+    margin-top: 30px;
+    display: flex;
+    font-size:xx-large;
+    justify-content: space-between;
+    color: yellow;
+  }
+  .no1{
+    margin-top: 10px;
+  }
+  .menubar2{
+    display: none;
+  }
+  .no2{
+    margin-top: 10px;
+  }
+  .no3{
+    margin-top: 10px;
+  }
+  .no4{
+    margin-top: 10px;
+  }
+  .line1{
+    background-color: #333;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    margin-top: 10px;
+  }
+#mainparent{
+  display: flex;
+/* background-color: yellowgreen;
+} */
+
+}
+.swipeleft{
+  margin: auto;
+  text-align: center;
+}
+.swiperight{
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+}
+#mainparent2{
+  display: flex;
+}
+.SWIPERIGHT{
+ margin: auto;
+ text-align: center;
+}
+.SWIPELEFT{
+width: 50%;
+height: 50%;
+background-size: cover;
+}
+#MAINPARENT3{
+  display: flex;
+}
+.SWIPELEFT1{
+  text-align: center;
+  margin: auto;
+
+}
+.SWIPERIGHT1{
+  width: 50%;
+  height: 50%;
+  }
+
+                     /* CONTACT */
+#contact{
+  display: flex;
+  margin-bottom: 10px;
+}
+.container1{
+  height: auto;
+  display: inline-block;
+  width: 100%;
+  background-color: blueviolet;
+}
+#contact2{
+  height: auto;
+  display: inline-block;
+  width: 100%;
+ background-color: blueviolet;
+}
+#CONTACT3{
+  height: auto;
+  display: inline-block;
+  width: 100%;
+  background-color: blueviolet;
+}
+.line2{
+  width: 120px;
+  height: 7px;
+  background-color: gray;
+  margin: auto;
+}
+.EMAIL{
+  width: 30px;
+display: inline-block;
+height: 30px;
+
+text-align: center;
+}
+.phone{
+width: 30px;
+display: inline-block;
+height: 30px;
+text-align: center;
+}
+/* contact page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+textarea {
+  height: 150px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width:690px) {
+header nav ul li {
+  display: flex;
+ }
+ .heading{
+  font-size: 15px;
+ }
+.swiperight{
+    margin-top: 30px;
+    height: 200px;
+    width: 150px;
+ }
+ #MAINPARENT1{
+  width: 10PX;
+  height: 3px;
+  background-color: blanchedalmond;
+ }
+.SWIPELEFT{
+  margin-bottom: 30px;
+  height: 200px;
+    width: 150px;
+}
+.SWIPERIGHT{
+  /* margin-bottom: 40px; */
+  font-size: 15px;
+  text-align: center;
+  justify-content: start;
+}
+.SWIPERIGHT1{
+/* margin-bottom: 30px; */
+height: 200px;
+    width: 150px;
+}
+.SWIPELEFT1{
+  margin-bottom: 50PX;
+  font-size: 15px;
+}
+ }
+@media screen and (max-width:520px) {
+ .SWIPELEFT{
+        margin-top:30px;
+ } 
+
+  /* .align{
+    text-align: start;
+    font-size: 20px;
+  } */
+#hero{
+  justify-content: left;
+}
+.btn{
+  justify-content: left;
+ text-align: left;
+}
+.div2{
+  font-size: 13px;
+}
+.div3{
+  font-size: 13px;
+}
+.DIV4{
+  font-size: 13px;
+}
+@media  screen and (max-width:600px){
+
+  .header{
+    width: 100%;
+  }
+#HERO2{
+  display: grid;
+  justify-content: center;
+  margin-top: 4px;
+}
+}
+.div2{
+  font-size: 18px;
+}
+.div3{
+  font-size: 18px;
+}
+.DIV4{
+  font-size: 18px;
+}
+@media  screen and (max-width: 438px){
+  #mainparent{
+    display: grid;
+  }
+  .swiperight{
+    width: 100%;
+  }
+  #mainparent2{
+    display: flex;
+    flex-direction: column;
+  }
+  .SWIPELEFT{
+    width: 100%;
+    order: 2;
+  }
+  .SWIPERIGHT{
+    order: 1;
+  }
+  #MAINPARENT3{
+    display: flex;
+    flex-direction: column;
+  }
+  .SWIPELEFT1{
+       
+
+  }
+  .SWIPERIGHT1{
+width: 100%;
+}
+
+}
+  @media screen and (min-width: 432PX){
+  body{
+    width: 100%;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  }
+  @media screen and (max-width: 450PX){
+   .logo{
+    display: none;
+   }
+   @media screen and (max-width: 700PX){
+   
+    header nav ul li {
+      display: none;
+      position: relative;
+    }
+       .menubar2{
+        margin-bottom: 20px;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 90%;
+
+       }
+        .menubar2 nav ul li a {
+        text-decoration: none;
+        display: flex;
+        transition: 0.5s;
+       }
+    .head{
+      font-size: 15px;
+    }
+    
+   @media screen and (max-width: 555PX){
+    .header nav ul {
+      margin-right: 2px;
+    }
+    header nav ul li {
+      font-size: 10px;
+    }
+    @media screen and (max-width: 428px){
+      header nav ul li {
+        font-size: 2px;
+    }
+  }
+    @media screen and (max-width: 532px){}
+      header nav ul li {
+         margin-right: 2px;
+    }
+       
